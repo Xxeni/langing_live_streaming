@@ -1,0 +1,19 @@
+{
+  "name": "sass_live_streaming",
+  "version": "1.0.0",
+  "description": "langing page",
+  "source": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xxeni/langing_live_streaming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "sass": "^1.84.0"
+  }
+}
