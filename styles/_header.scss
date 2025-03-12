@@ -15,7 +15,7 @@
             width: 1px;
             style: solid;
             color: v.$color_white;
-        };
+        }
     }
 
     .nav {
@@ -26,7 +26,7 @@
             height: 100%;
             width: 255px;
             border-right: 1px solid v.$color_white;
-            @include m.d-flex(start, center);
+            @include m.d-flex(center, center);
 
             &-link {
                 font-size: 25px;
@@ -37,7 +37,7 @@
                     font-weight: 700;
                 }
 
-                @extend %hover-black; 
+                @extend %hover-black;
             }
         }
 
@@ -52,7 +52,7 @@
                     &-link {
                         font-size: 22px;
                         font-weight: 400;
-                        color: v.$color-white;
+                        color: v.$color_white;
 
                         @extend %hover-black;
                     }

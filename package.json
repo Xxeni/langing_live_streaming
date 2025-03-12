@@ -10,13 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xxeni/langing_live_streaming.git"
+    "url": "git+https://github.com/DmitryKolotilshikov/langing_live_streaming.git"
   },
-  "author": "",
+  "author": "Dmitry Ko",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryKolotilshikov/langing_live_streaming/issues"
+  },
+  "homepage": "https://github.com/DmitryKolotilshikov/langing_live_streaming#readme",
   "devDependencies": {
-    "parcel": "^2.13.3",
-    "sass": "^1.84.0",
-    "svgo": "^3.3.2"
+    "parcel": "^2.10.3",
+    "sass": "^1.69.5"
   }
 }

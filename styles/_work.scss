@@ -29,7 +29,7 @@
             // justify-items: center;
             // align-items: center;
             place-items: center;
-            grid-template-areas: 
+            grid-template-areas:
                 "analysis design dev"
                 "maintenance testing integration";
 
@@ -37,20 +37,25 @@
                 grid-area: analysis;
                 justify-self: start;
             }
+
             .card--design {
                 grid-area: design;
             }
+
             .card--dev {
                 grid-area: dev;
                 justify-self: end;
             }
+
             .card--maintenance {
                 grid-area: maintenance;
                 justify-self: start;
             }
+
             .card--testing {
                 grid-area: testing;
             }
+
             .card--integration {
                 grid-area: integration;
                 justify-self: end;
@@ -60,22 +65,27 @@
                 width: 29px;
                 height: 41px;
             }
+
             .icon--design {
                 width: 50px;
                 height: 41px;
             }
+
             .icon--dev {
                 width: 55px;
                 height: 41px;
             }
+
             .icon--maintenance {
                 width: 43px;
                 height: 41px;
             }
+
             .icon--testing {
                 width: 44px;
                 height: 41px;
             }
+
             .icon--integration {
                 width: 42px;
                 height: 41px;
@@ -84,8 +94,7 @@
             @media (max-width: v.$media_md) {
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(3, 1fr);
-                row-gap: 65px;
-                grid-template-areas: 
+                grid-template-areas:
                     "analysis design"
                     "dev maintenance"
                     "testing integration";
